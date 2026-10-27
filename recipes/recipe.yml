@@ -25,6 +25,7 @@ modules:
         - terra-release
         - umbriel-nightly
         - noctalia
+        - polkit-kde
     # Não precisa da seção "remove" se você não quer remover nada
 
   - type: default-flatpaks
