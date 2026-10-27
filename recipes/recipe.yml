@@ -26,6 +26,10 @@ modules:
         - umbriel-nightly
         - noctalia
         - polkit-kde
+        - kitty
+        - nautilus
+        - nvim
+        - zsh
     # Não precisa da seção "remove" se você não quer remover nada
 
   - type: default-flatpaks
