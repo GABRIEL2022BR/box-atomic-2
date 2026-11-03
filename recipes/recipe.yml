@@ -29,7 +29,14 @@ modules:
         - kitty
         - nautilus
         - nvim
-        - zsh
+        - fish
+        - xdg-desktop-portal-gtk
+        - gvfs
+        - gvfs-mtp
+        - gvfs-smb
+        - file-roller
+        - greetd
+        - noctalia-greeter
     # Não precisa da seção "remove" se você não quer remover nada
 
   - type: default-flatpaks
