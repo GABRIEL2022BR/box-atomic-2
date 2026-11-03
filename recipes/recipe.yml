@@ -35,13 +35,15 @@ modules:
         - gvfs-mtp
         - gvfs-smb
         - file-roller
-        - greetd
-        - noctalia-greeter
+        - sddm
+        - podman 
+        - distrobox
+        - htop
 
   - type: systemd
     system:
       enabled:
-        - greetd.service
+        - sddm.service
 
   - type: default-flatpaks
     configurations:
