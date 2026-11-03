@@ -28,7 +28,7 @@ modules:
         - polkit-kde
         - kitty
         - nautilus
-        - nvim
+        - neovim
         - fish
         - xdg-desktop-portal-gtk
         - gvfs
@@ -37,7 +37,11 @@ modules:
         - file-roller
         - greetd
         - noctalia-greeter
-    # Não precisa da seção "remove" se você não quer remover nada
+
+  - type: systemd
+    system:
+      enabled:
+        - greetd.service
 
   - type: default-flatpaks
     configurations:
@@ -45,6 +49,5 @@ modules:
         scope: system
         install:
           - com.github.tchx84.Flatseal
-      - scope: user
 
   - type: signing
